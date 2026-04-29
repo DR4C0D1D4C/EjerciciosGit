@@ -4,6 +4,8 @@ public class BallScript : MonoBehaviour
 {
     public float speed = 12f;
     private Rigidbody2D rb;
+    private int puntuacionA = 0;
+    private int puntuacionB = 0;
 
     void Start()
     {
@@ -22,8 +24,17 @@ public class BallScript : MonoBehaviour
 
     void Update()
     {
-        if (Mathf.Abs(transform.position.x) > 10f)
+        if (transform.position.x > 10f)
         {
+            puntuacionB++;
+            Debug.Log(puntuacionA + " - " + puntuacionB);
+            transform.position = Vector2.zero;
+            Launch();
+        }
+        else if (transform.position.x < -10f)
+        {
+            puntuacionA++;
+            Debug.Log(puntuacionA + " - " + puntuacionB);
             transform.position = Vector2.zero;
             Launch();
         }
