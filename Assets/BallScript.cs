@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BallScript : MonoBehaviour
 {
-    public float speed = 12f;
+    public float speed = 10f;
     private Rigidbody2D rb;
     private int puntuacionA = 0;
     private int puntuacionB = 0;
