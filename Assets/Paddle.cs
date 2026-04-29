@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class Paddle : MonoBehaviour
 {
-    public float speed = 10f;
+    public float speed = 9f;
     public Key upKey;
     public Key downKey;
 
