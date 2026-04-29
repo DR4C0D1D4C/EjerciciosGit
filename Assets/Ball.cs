@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    public float speed = 8f;
+    public float speed = 10f;
     private Rigidbody2D rb;
 
     void Start()
@@ -13,7 +13,7 @@ public class Ball : MonoBehaviour
 
     void Launch()
     {
-        float x = Random.value < 0.5f ? -1 : 1;
+        float x = Random.value < 0.4f ? -1 : 1;
         float y = Random.Range(-0.5f, 0.5f);
 
         Vector2 dir = new Vector2(x, y).normalized;
