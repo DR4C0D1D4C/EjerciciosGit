@@ -6,7 +6,7 @@ public class BallScript : MonoBehaviour
     private Rigidbody2D rb;
     private int puntuacionA = 0;
     private int puntuacionB = 0;
-
+    //steel ball ruuuuuuuun
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
