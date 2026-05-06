@@ -1,6 +1,6 @@
 # Unity Pong v2
 
-Juego sencillo tipo Pong desarrollado en Unity.
+Juego sencillo tipo Pong desarrollado en Unity version 6.
 Permite controlar dos paletas y jugar con una pelota.
 Dispone de un marcador de puntos.
 Quack
